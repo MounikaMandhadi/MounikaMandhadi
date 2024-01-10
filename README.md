@@ -1,1 +1,1 @@
-This repository will be by used Mounika Mandhadi to submit code changes and assignments.
+This repository will be used by Mounika Mandhadi to submit code changes and assignments.
