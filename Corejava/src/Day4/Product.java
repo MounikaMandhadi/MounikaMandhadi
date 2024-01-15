@@ -13,9 +13,8 @@ public class Product {
         this.price = price;
     }
 
-    // Overloaded getPrice method that takes quantity as a parameter
     public double getPrice(int quantity) {
-        // Calculate the total price based on the quantity
+       
         return price * quantity;
     }
 }
