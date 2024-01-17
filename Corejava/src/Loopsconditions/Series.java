@@ -23,3 +23,4 @@ public class Series {
         sc.close(); 
     }
 }
+
