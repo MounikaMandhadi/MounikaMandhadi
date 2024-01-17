@@ -7,19 +7,19 @@ public class Series {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter N");
-        int N = sc.nextInt();
+        System.out.println("Enter Number");
+        int num = sc.nextInt();
         int first = 0;
         int second = 1;
 
-        for (int i = 0; i < N; i++) { // Change the loop condition to i < N
-            System.out.print(first + " "); // Use print instead of println
+        for (int i = 0; i < num; i++) { 
+            System.out.print(first + " "); 
 
-            int num = first + second;
+            int num1 = first + second;
             first = second;
-            second = num;
+            second = num1;
         }
 
-        sc.close(); // Close the scanner when done.
+        sc.close(); 
     }
 }
