@@ -11,13 +11,15 @@ class Dog extends Animal {
     public void makeSound() {
         System.out.println("Bark");
     }
+
+   
 }
 
 class PolymorphismExample {
     public static void main(String[] args) {
         Animal myAnimal = new Dog();
         myAnimal.makeSound(); // Outputs "Bark"
-        System.out.println(myAnimal);
+        
+        System.out.println(myAnimal); // Outputs "This is a Dog object"
     }
 }
-
