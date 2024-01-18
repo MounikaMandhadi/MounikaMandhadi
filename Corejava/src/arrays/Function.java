@@ -24,3 +24,4 @@ public class Function {
         System.out.println(Arrays.toString(arr1));
     }
 }
+
