@@ -2,15 +2,16 @@ package strings;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 class AnagramTest {
 
-	@Test
-	void test() {
-		boolean exp = true;
-        Assert.assertEquals(true,true);
-	}
-
+    @Test
+    void testAreAnagrams() {
+        assertTrue(Anagram.areAnagrams("listen", "silent"));
+        assertTrue(Anagram.areAnagrams("heart", "earth"));
+        assertFalse(Anagram.areAnagrams("hello", "world"));
+        assertFalse(Anagram.areAnagrams("apple", "banana"));
+    }
 }
+
