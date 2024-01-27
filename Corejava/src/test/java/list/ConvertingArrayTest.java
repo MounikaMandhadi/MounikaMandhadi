@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class ConvertinArrayTest {
+public class ConvertingArrayTest {
 
     @Test
     public void testArrayListToArrayConversion() {
