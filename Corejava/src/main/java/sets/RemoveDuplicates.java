@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
-        String input = " java programming";
+        String input = "java programming";
         String result = removeDuplicates(input);
         System.out.println("Original String: " + input);
         System.out.println("String after removing duplicates: " + result);
@@ -28,4 +28,3 @@ public class RemoveDuplicates {
         return result.toString();
     }
 }
-

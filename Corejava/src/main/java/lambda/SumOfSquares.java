@@ -16,11 +16,4 @@ public class SumOfSquares {
         return sum;
     }
 
-    public static void main(String[] args) {
-        List<Integer> numberList = List.of(1, 2, 3, -4, 5, -6, 7, 8);
-
-        int sumOfSquares = calculateSumOfSquares(numberList);
-
-        System.out.println("Sum of squares of positive integers: " + sumOfSquares);
-    }
 }
